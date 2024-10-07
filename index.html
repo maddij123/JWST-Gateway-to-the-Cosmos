@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Universe with JWST</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="hero-text">
+            <h1>Explore the Universe with the JWST</h1>
+            <p>Experience the wonders of space through the eyes of the James Webb Space Telescope.</p>
+            <button onclick="document.getElementById('video-section').scrollIntoView({behavior: 'smooth'})">Start the Journey</button>
+        </div>
+    </header>
+
+    <section id="video-section" class="video-container">
+        <h2>James Webb Space Telescope: Journey Through the Cosmos</h2>
+        <div class="video-wrapper">
+            <video width="800" height="450" controls>
+                <source src="clip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 NASA and JWST. All rights reserved.</p>
+    </footer>
+</body>
+</html>
